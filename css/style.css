@@ -28,7 +28,7 @@ h1 {
 
 h2 {
 	font-size: 20px;
-	width: 92vw;
+	width: 100%;
 	margin: 0;
 }
 
@@ -91,6 +91,15 @@ a {
 	text-align: justify;
 	padding-left: 17px;
 	padding-right: 17px;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card {
+	background-color: #BDBDBD;
+	padding: 10px;
 }
 /*
 nav {

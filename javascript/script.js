@@ -3,6 +3,6 @@ $('.hamburger_icon').click(function(evt){
 	navigation.toggleClass('open');
 });
 
-$('main').click(function(){
+$('.items > a, main').click(function(){
 	navigation.addClass('open');
 });
