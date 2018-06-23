@@ -40,7 +40,7 @@ h1 {
 	padding: 0 20px;
 }
 
-svg {
+.hamburger {
 	width: 20px;
 	float: right;
 	margin-top: -23px;
@@ -133,6 +133,12 @@ h3 {
 	width: 100%;
 	padding: 70px 0px;
 }
+
+.icons {
+	width: 24%;
+	height: 52px;
+}
+
 /*
 nav {
 	display: inline;
