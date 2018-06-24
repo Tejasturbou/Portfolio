@@ -1,0 +1,155 @@
+@media screen and (min-width: 352px) {
+	.information {
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}
+
+@media screen and (min-width: 400px) {
+	.card img {
+		max-height: 200px;
+		max-width: 322px;
+	}
+	.information {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+	#html_devicon, #css_devicon, #javascript_devicon, #jquery_devicon {
+		display: inline;
+	}
+	.devicon {
+		width: 34%;
+		margin-top: 35px;
+		height: 80px;
+	}
+	.paragraph {
+		display: none;
+	} 
+	.footer {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 492px) {
+	.information {
+		margin-left: 1%;
+		margin-right: 3%;
+	}
+}
+
+@media screen and (min-width: 521px) {
+	.information {
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+}
+
+@media screen and (min-width: 613px) {
+	.information {
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}
+
+@media screen and (min-width: 691px) {
+	.information {
+		margin-left: 11%;
+		margin-right: 11%;
+		padding-left: 17%;
+		padding-right: 17%;
+	}
+	.detail {
+		margin-left: 62px;
+		margin-right: 62px;
+	}
+}
+
+@media screen and (min-width: 782px) {
+	.content {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.information {
+		margin: 28px 0 0;
+		padding: 0;
+	}
+	#pixel {
+		width: 35%;
+		margin-left: 11%;
+		order: 1;
+	}
+	#mockup {
+		width: 35%;
+		margin-left: 7%;
+		margin-right: 7%;
+		order: 2;
+	}
+	#animal {
+		width: 100%;
+		order: 3;
+		margin-right: 32%;
+		margin-left: 32%;
+	}
+	.detail {
+		font-size: 2vw;
+	}
+}
+
+@media screen and (min-width: 840px) {
+	.devicon {
+		width: 24%;
+	}
+	#skills {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contain {
+		margin-right: 16%;
+		margin-left: 16%;
+	}
+	.inner_footer {
+		margin-left: 22%;
+		margin-right: 22%;
+	}
+	h1 {
+		font-size: 5vw;
+	}
+}
+
+@media screen and (min-width: 952px) {
+	#pixel {
+		width: 28%;
+		margin-left: 4%;
+		order: 1;
+	}
+	#animal {
+		width: 28%;
+		order: 2;
+		margin-left: 4%;
+		margin-right: 0;
+	}
+	#mockup {
+		width: 28%;
+		margin-left: 4%;
+		margin-right: 0;
+		order: 3;
+	}
+	h2 {
+		font-size: 1.8vw;
+	}
+	.hamburger {
+		width: 22px;
+	}
+	#copyright {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1220px) {
+	.card {
+		margin-left: 4%;
+		margin-right: 9%;
+	}
+}
