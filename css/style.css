@@ -1,15 +1,24 @@
 body, html {
 	font-family: 'Raleway', sans-serif;
-	color: #FFFFFF;
+	color: #ffffff;
 	background-color: #757575;
 	margin: 0;
 }
+
+/***************************************** header *****************************************/
 
 .intro {
 	background-color: #757575;
 	padding: 40px 0px;
 	text-align: center;
 	height: 100vh;
+}
+
+h1 {
+	font-size: 6vw;
+	padding: 33vh 0;
+	line-height: 7.7vw;
+	width: 100%;
 }
 
 .fixed {
@@ -23,16 +32,15 @@ body, html {
 	overflow: hidden;
 }
 
-h1 {
-	font-size: 6vw;
-	padding: 33vh 0;
-	line-height: 7.7vw;
-	width: 100%;
-}
-
 #name {
 	margin-left: 14px;
 	width: 260px;
+}
+
+h2 {
+	font-size: 20px;
+	width: 100%;
+	margin: 0;
 }
 
 .hamburger_icon {
@@ -47,15 +55,11 @@ h1 {
 	position: relative;
 }
 
-h2 {
-	font-size: 20px;
-	width: 100%;
-	margin: 0;
-}
+/***************************************** navigation *****************************************/
 
 nav {
 	 width: 100%;
-	 background-color: #BDBDBD;
+	 background-color: #bdbdbd;
 	 position: sticky;
 	 top: 60px;
 	 z-index: 90;
@@ -73,15 +77,6 @@ li.items {
 	text-align: center;
 }
 
-nav.open {
-	display: none;
-}
-
-main {
-	text-align: center;
-	background-color: #757575;             /* #388E3C  #C8E6C9 #4CAF50 #9E9E9E #212121 #757575 #BDBDBD*/
-}
-
 li.items a {
 	text-decoration: none;
 	display: block;
@@ -90,14 +85,21 @@ li.items a {
 	border-bottom: 1px solid black;
 }
 
+nav.open {
+	display: none;
+}
+
+/***************************************** main *****************************************/
+
+main {
+	text-align: center;
+	background-color: #757575;
+}
+
+
 #about, #portfolio, #skills, #contact-me {
 	padding: 65px 0 30px;
 	width: 100%;
-}
-
-a {
-	text-decoration: none;
-	color: #FFFFFF;
 }
 
 .detail {
@@ -114,16 +116,22 @@ a {
 	padding-right: 17px;
 }
 
-.card img {
-	width: 100%;
+a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
 .card {
-	background-color: #BDBDBD;
+	background-color: #bdbdbd;
 	padding: 10px;
 }
+
 h3 {
 	color: #212121;
+}
+
+.card img {
+	width: 100%;
 }
 
 .devicon {
@@ -137,8 +145,10 @@ h3 {
 	padding-top: 8px;
 }
 
+/***************************************** footer *****************************************/
+
 .footer {
-	background: #9E9E9E;
+	background: #9e9e9e;
 	width: 100%;
 	padding: 28px 0px 11px;
 }
@@ -153,33 +163,10 @@ h3 {
 	padding: 0;
 	margin-bottom: 0;
 	margin-top: 30px;
-	color: #FFFFFF;
+	color: #ffffff;
 }
 
 span {
 	font-family: 'open-sans';
 	color: #212121;
 }
-/*
-nav {
-	display: inline;
-}
-
-ul {
-	list-style-type: none;
-	margin: -52px 0;
-	padding: 0;
-	width: 437px;
-	float: right;
-	font-size: 22px;
-	overflow: hidden;
-}
-
-li.items {
-	display: inline;
-	margin-right: 10px;
-}
-
-li: nth-child(4) {
-	margin-right: 0;
-}*/
