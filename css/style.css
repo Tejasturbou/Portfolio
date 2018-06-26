@@ -6,6 +6,18 @@ body, html {
 }
 
 /***************************************** header *****************************************/
+.photo {
+	text-align: center;
+	margin-top: 40px;
+	padding: 0;
+}
+
+.my_image {
+	max-width: 200px;
+	max-height: 200px;
+	margin: 0;
+	padding: 0;
+}
 
 .intro {
 	background-color: #757575;
